@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Kalkulatorek</h1>
+        <h2>Podaj dane do operacji:</h2>
+        <form method="post" action="CalcServlet">
+            <input name='liczba1' type="text" />
+            <select name="dzialanie">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input name='liczba2' type="text" />
+            <button>=</button>
+        </form>
+    </body>
+</html>

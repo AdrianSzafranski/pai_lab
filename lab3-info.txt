@@ -1,0 +1,4 @@
+Aby odpalić to poprawnie w domu:
+1. W ListServlet.java w tworzeniu "conn" dodać hasło do mysql.
+2. W pom.xml zmienić wersje mysql-connector-java na 8.0.30(na uczelni 8.0.11)
+3. w ListServlet.java w zapytaniu SELECT na uczelni działało "Country" z dużej litery. W domu musiałem napisać z małej "country"

@@ -1,0 +1,2 @@
+>w spring-servlet.xml usunąć/dodać hasło zależnie czy uczelnia/dom
+>w pom.xml zmienić wersje mysql-connector-java na 8.0.30(na uczelni 8.0.11)
